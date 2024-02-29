@@ -1,0 +1,308 @@
+repo_name: 2lambda123/stetoskop-api
+report_id: 9bf19eeab428b23dab84991f7770e9d3
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-29T19:15:12+00:00'
+requested_by: diegodulval
+provider: github
+branch: master
+detected_tools_count: 24
+tools:
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  version: '1.8'
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/2lambda123/stetoskop-api/blob/master/pom.xml
+  detection_source: Repo Metadata
+  last_updated_by: diegodulval
+  last_updated_on: 2017-10-28 13:40:04.000000000 Z
+- name: SQL
+  description: It is a domain-specific language used in programming
+  website_url: https://en.wikipedia.org/wiki/SQL
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/2271/default_068d33483bba6b81ee13fbd4dc7aab9780896a54.png
+  detection_source_url: https://github.com/2lambda123/stetoskop-api/blob/master/src/main/resources/db/migration/V2__create_stetoskop.sql
+  detection_source: src/main/resources/db/migration/V2__create_stetoskop.sql
+  last_updated_by: diegodifreitas
+  last_updated_on: 2017-11-14 20:22:17.000000000 Z
+- name: Spring Framework
+  description: An application framework and inversion of control container for the
+    Java platform
+  website_url: https://spring.io/projects/spring-framework
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/2006/spring-framework-project-logo.png
+  detection_source_url: https://github.com/2lambda123/stetoskop-api/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: diegodulval
+  last_updated_on: 2017-11-07 13:54:05.000000000 Z
+- name: Ehcache
+  description: Java's Most Widely-Used Cache
+  website_url: http://ehcache.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Cache
+  image_url: https://img.stackshare.io/service/3093/EhcacheTwitterIcon.png
+  detection_source_url: https://github.com/2lambda123/stetoskop-api/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: diegodulval
+  last_updated_on: 2018-01-04 18:33:54.000000000 Z
+- name: H2 Database
+  description: A relational database management system written in Java
+  website_url: http://www.h2database.com/
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/3105/h2-logo_square_400x400.png
+  detection_source_url: https://github.com/2lambda123/stetoskop-api/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: diegodulval
+  last_updated_on: 2017-10-28 13:40:04.000000000 Z
+- name: PostgreSQL
+  description: A powerful, open source object-relational database system
+  website_url: http://www.postgresql.org/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1028/ASOhU5xJ.png
+  detection_source_url: https://github.com/2lambda123/stetoskop-api/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: diegodulval
+  last_updated_on: 2017-10-28 13:40:04.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/2lambda123/stetoskop-api
+  detection_source: Repo Metadata
+- name: Apache Camel
+  description: A versatile open source integration framework
+  website_url: https://camel.apache.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Platform as a Service
+  image_url: https://img.stackshare.io/service/3276/xWt1RFo6_400x400.jpg
+  detection_source_url: https://github.com/2lambda123/stetoskop-api/blob/master/src/main/resources/application.properties
+  detection_source: src/main/resources/application.properties
+  last_updated_by: diegodulval
+  last_updated_on: 2017-10-28 13:50:03.000000000 Z
+- name: com.google.code.gson:gson
+  description: Gson JSON library
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/stetoskop-api/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: diegodifreitas
+  last_updated_on: 2017-11-13 20:28:58.000000000 Z
+- name: com.h2database:h2
+  description: H2 Database Engine
+  license: MIT-feh
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/stetoskop-api/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: diegodifreitas
+  last_updated_on: 2017-11-13 20:28:58.000000000 Z
+- name: com.zaxxer:HikariCP
+  description: Ultimate JDBC Connection Pool
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/stetoskop-api/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: diegodifreitas
+  last_updated_on: 2017-11-13 20:28:58.000000000 Z
+- name: io.jsonwebtoken:jjwt
+  description: 'Java JWT: JSON Web Token for Java and Android'
+  version: 0.7.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/stetoskop-api/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: diegodulval
+  last_updated_on: 2017-10-28 13:40:04.000000000 Z
+- name: io.springfox:springfox-swagger-ui
+  description: JSON API documentation for spring based applications
+  version: 2.6.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/stetoskop-api/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: diegodulval
+  last_updated_on: 2017-11-07 13:54:05.000000000 Z
+- name: io.springfox:springfox-swagger2
+  description: JSON API documentation for spring based applications
+  version: 2.6.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/stetoskop-api/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: diegodulval
+  last_updated_on: 2017-11-07 13:54:05.000000000 Z
+- name: net.sf.ehcache:ehcache
+  description: This is a pom artifact to pull in ehcache-core and ehcache-terracotta
+    for clustering
+  license: Apache-2.0,QPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/stetoskop-api/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: diegodulval
+  last_updated_on: 2018-01-04 18:33:54.000000000 Z
+- name: org.flywaydb:flyway-core
+  description: 'Flyway: Database Migrations Made Easy'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/stetoskop-api/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: diegodulval
+  last_updated_on: 2018-01-04 19:59:13.000000000 Z
+- name: org.postgresql:postgresql
+  description: The PostgreSQL Driver JDBC4
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/stetoskop-api/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: diegodulval
+  last_updated_on: 2018-01-04 19:59:13.000000000 Z
+- name: org.projectlombok:lombok
+  description: 'Spice up your java: Automatic Resource Management'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/stetoskop-api/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: diegodulval
+  last_updated_on: 2018-01-04 19:59:13.000000000 Z
+- name: org.springframework.boot:spring-boot-devtools
+  description: Spring Boot Developer Tools
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/stetoskop-api/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: diegodulval
+  last_updated_on: 2018-01-04 19:59:13.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-data-jpa
+  description: Starter for using Spring Data JPA with Hibernate
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/stetoskop-api/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: diegodulval
+  last_updated_on: 2018-01-04 19:59:13.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-mail
+  description: Starter for using Java Mail and Spring Framework's email sending support
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/stetoskop-api/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: diegodulval
+  last_updated_on: 2018-01-04 19:59:13.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-security
+  description: Starter for using Spring Security
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/stetoskop-api/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: diegodulval
+  last_updated_on: 2018-01-04 19:59:13.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-test
+  description: Starter for testing Spring Boot applications with libraries including
+    JUnit
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/stetoskop-api/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: diegodulval
+  last_updated_on: 2018-01-04 19:59:13.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-web
+  description: Starter for building web, including RESTful, applications using Spring
+    MVC
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/stetoskop-api/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: diegodulval
+  last_updated_on: 2018-01-04 19:59:13.000000000 Z
